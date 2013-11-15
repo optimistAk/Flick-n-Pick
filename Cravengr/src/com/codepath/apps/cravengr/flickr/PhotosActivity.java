@@ -71,7 +71,7 @@ public class PhotosActivity extends Activity {
 		
 		SharedPreferences pref =   
 			    PreferenceManager.getDefaultSharedPreferences(this);
-			String userQuery = pref.getString("userQueryFromDB", "pongal"); 
+			String userQuery = pref.getString("userQueryFromDB", "pizza"); 
 		
 			Toast.makeText(this, "PhotosAct: " + userQuery, Toast.LENGTH_SHORT).show();
 		//userQuery = getIntent().getStringExtra("craveQuery");
